@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local storage API
+    </title>
+</head>
+<body>
+
+    <div>
+        <button onclick="setLocalStorage('name', 'khalid')">Set local name</button>
+    </div>
+    <div>
+        <button onclick="getLocalStorage('name')">get local name</button>
+    </div>
+    <div>
+        <button onclick="setLocalStorage('username', 'khalidur Rahman')">Set local username</button>
+    </div>
+    <div>
+        <button onclick="getLocalStorage('username')">get local username</button>
+    </div>
+    <div>
+        <button onclick="removeLocalStorage('name')">remove item</button>
+    </div>
+    <div>
+        <button onclick="clearLocalStorage()">clear item</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
